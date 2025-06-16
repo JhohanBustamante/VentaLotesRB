@@ -72,7 +72,12 @@ div.lugarTitulo{
    div.individualCarrusel {
       margin-bottom: -80px !important;
    }
+      
    div.lugarTitulo{
       margin-top: -150px !important; 
+   }
+
+   table {
+      display: none;
    }
 }

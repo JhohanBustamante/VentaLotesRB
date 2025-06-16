@@ -13,6 +13,10 @@ body button{
   background-color: var(--colorPrincipal) !important;
 }
 
+header button{
+  background-color: var(--colorSecundario) !important;
+}
+
 body {
   display: flex;
   flex-direction: column;
