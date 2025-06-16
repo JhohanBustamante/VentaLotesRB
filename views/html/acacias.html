@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="/views/css/index.css" rel="stylesheet">
+    <link href="/views/css/acacias.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img id="logoDos" src="/resources/logos/logoDoos.png">
+                <a class="navbar-brand" id="ventaLotesHeader">Venta de lotes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item botonDesplegable">
+                            <a class="nav-link active" aria-current="page" href="/index.html"> Inicio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#lugaresCards"> Lugares </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/html/contactanos.html"> Contáctanos </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">   
+                    <div class="col-6 col-sm-8">
+                        <h2 id="tituloIndividual">
+                            Acacías
+                        </h2>
+                    </div>                    
+                    <div class="col-6 col-sm-4" id="listaLugares"> 
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                    Lugares
+                            </a>    
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/views/html/acacias.html">Acacias</a></li>
+                                <li><a class="dropdown-item" href="/views/html/guamal.html">Guamal</a></li>
+                                <li><a class="dropdown-item" href="/views/html/granada.html">Granada</a></li>
+                                <li><a class="dropdown-item" href="/views/html/villavicencio.html">Villavicencio</a></li>
+                                <li><a class="dropdown-item" href="/views/html/chichimene.html">Chichimene</a></li>
+                                <li><a class="dropdown-item" href="/views/html/porfia.html">Porfia</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div id="individualCarrusel" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" id="lugarImgUno">
+                            <img src="/resources/imagenes/lugares/acacias.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item " id="lugarImgDos">
+                            <img src="/resources/imagenes/lugares/acaciasDos.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" id="lugarImgTres">
+                            <img src="/resources/imagenes/lugares/acaciasTres.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" id="lugarImgCuatro">
+                            <img src="/resources/imagenes/lugares/acaciasCuatro.jpg" class="d-block w-100"
+                                alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#individualCarrusel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#individualCarrusel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div id="lugarTitulo">
+                    <h4>
+                        Acacías - Meta
+                    </h4>
+                </div>
+                <div class="col-12 descripcionLugar" id="lugarDescripcion">
+                    <p>
+                        Vivir en Acacías es despertar cada día rodeado de naturaleza viva, en un ambiente
+                        fresco y silencioso, lejos del ruido pero cerca de todo. Sus amplios lotes y paisajes verdes
+                        permiten construir un hogar cómodo y sostenible, con espacio para jardines, mascotas y vida
+                        familiar al aire libre. Es una opción ideal para quienes buscan tranquilidad sin sacrificar
+                        acceso a servicios ni conectividad con la ciudad.
+                        <br><br>
+                        Cualidades:
+                    <ul>
+                        <li>
+                            Clima templado todo el año
+                        </li>
+                        <li>
+                            A 15 min de la ciudad
+
+                        </li>
+                        <li>
+                            Áreas verdes y senderos
+
+                        </li>
+                        <li>
+                            Comunidad organizada
+
+                        </li>
+                        <li>
+                            Servicios públicos garantizados
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Lote</th>
+                            <th scope="col">Urbano</th>
+                            <th scope="col">Rural</th>
+                            <th scope="col">Precio m^2</th>
+                            <th scope="col">Cantidad m^2</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>x</td>
+                            <td></td>
+                            <td>$121.514</td>
+                            <td>40</td>
+                            <td>$ 4'860.560</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td></td>
+                            <td>x</td>
+                            <td>$100.514</td>
+                            <td>56</td>
+                            <td>$ 5'628.784 </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>x</td>
+                            <td></td>
+                            <td>$125.814</td>
+                            <td>45</td>
+                            <td>$ 5'661.630</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardUnoFoot" style="width: 18rem;">
+                    <img id="logoDosFooter" src="/resources/logos/logoDoos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Venta de Lotes RB es una plataforma digital creada para
+                            simplificar la compra de predios.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardDosFoot" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Medios de contacto:</h5>
+                        <p class="card-text">Teléfono: +57 320 202 02 02<br>
+                            Correo : lotesRB@gmail.com</p>
+                        <a href="https://wa.me/3202020202" class="btn btn-primary" target="_blank">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardTresFoot" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Secciones principales:</h5>
+                        <p class="card-text"><a href="/index.html"><br>Inicio</a>
+                            <a href="/views/html/contactanos.html"><br>Contáctanos</a>
+                            <a href="/views/html/test.html"><br>Test</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script src="/resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

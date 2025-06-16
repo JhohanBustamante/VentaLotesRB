@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="/views/css/index.css" rel="stylesheet">
+    <link href="/views/css/contactanos.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img id="logoDos" src="/resources/logos/logoDoos.png">
+                <a class="navbar-brand" id="ventaLotesHeader">Venta de lotes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item botonDesplegable">
+                            <a class="nav-link active" aria-current="page" href="/index.html"> Inicio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#lugaresCards"> Lugares </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/html/contactanos.html"> Contáctanos </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="row">
+                <div class="row primerRow contRow">
+                    <div class="col-12 col-xl-4">
+                        <div id="cartaTest" class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">¿Dónde quieres vivir?</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Test de entorno ideal.</h6>
+                                <p class="card-text">Hemos realizado un pequeño <br> test para recomendarte los mejores
+                                    lugares.
+                                </p>
+                                <a href="/views/html/test.html" target="_blank"><button type="button"
+                                        class="btn btn-primary">Test</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-8">
+                        <div class="form" id="formContacto">
+                            <h5>¿Estás interesado en algún lugar?</h5>
+                            <div class="row mb-3">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Tu nombre</label>
+                                <div class="col-8 col-md-6">
+                                    <input type="email" class="form-control" id="inputEmail3">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">Teléfono</label>
+                                <div class="col-8 col-md-6">
+                                    <input type="text" class="form-control" id="inputPassword3">
+                                </div>
+                            </div>
+                            <div class="row mb-3" id="comentarioContacto">
+                                <label for="comentario" class="col-sm-2 col-form-label">Comentario</label>
+                                <div class="col-9 col-md-9">
+                                    <input type="text" class="form-control" name="comentario" id="comentario">
+                                </div>
+                            </div>
+                            <fieldset class="row mb-3">
+                                <legend class="col-form-label col-sm-2 pt-0">Interés</legend>
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                            value="opcionUno" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                            Correo
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                            value="opcionDos">
+                                        <label class="form-check-label" for="gridRadios2">
+                                            Whatsapp
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row sedes">
+                <div class="col-12">
+
+                    <h4>Nuestras sedes</h4>
+                </div>
+                <div class="sede col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/sedeUno.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">📍 Sede Principal – Bogotá <br>
+                                📌 Av. Calle 100 #19-55, Usaquén, Bogotá D.C. <br>
+                                🕒 Lunes a viernes: 8:00 a.m. – 5:30 p.m. <br>
+                                📞 Atención personalizada para compradores y permutas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sede col-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/resources/sedeDos.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">📍 Sede Regional – Medellín <br>
+                                📌 Cra. 43A #1-50, El Poblado, Medellín <br>
+                                🕒 Lunes a sábado: 9:00 a.m. – 6:00 p.m. <br>
+                                📞 Especialistas en lotes residenciales y rurales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sede col-12 col-md-6 col-lg-4">
+                    <div class="card imparCardSede" style="width: 18rem;">
+                        <img src="/resources/sedeTres.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">📍 Sede Norte – Barranquilla <br>
+                                📌 Calle 76 #54-38, Alto Prado, Barranquilla <br>
+                                🕒 Lunes a viernes: 8:30 a.m. – 5:00 p.m. <br>
+                                📞 Consultas, asesorías y atención a inversionistas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardUnoFoot" style="width: 18rem;">
+                    <img id="logoDosFooter" src="/resources/logos/logoDoos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Venta de Lotes RB es una plataforma digital creada para
+                            simplificar la compra de predios.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardDosFoot" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Medios de contacto:</h5>
+                        <p class="card-text">Teléfono: +57 320 202 02 02<br>
+                            Correo : lotesRB@gmail.com</p>
+                        <a href="https://wa.me/3202020202" class="btn btn-primary" target="_blank">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardTresFoot" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Secciones principales:</h5>
+                        <p class="card-text"><a href="/index.html"><br>Inicio</a>
+                            <a href="/views/html/contactanos.html"><br>Contáctanos</a>
+                            <a href="/views/html/test.html"><br>Test</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

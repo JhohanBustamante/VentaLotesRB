@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link href="/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="views/css/index.css" rel="stylesheet">
+    <link href="views/css/test.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img id="logoDos" src="/resources/logos/logoDoos.png">
+                <a class="navbar-brand" id="ventaLotesHeader">Venta de lotes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item botonDesplegable">
+                            <a class="nav-link active" aria-current="page" href="/index.html"> Inicio </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html#lugaresCards"> Lugares </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/views/html/contactanos.html"> Contáctanos </a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row" id="formularioTest">
+                <div class="col-12">
+                    <form id="testForm">
+                        <div class="col-12">
+                            <div class="col-8 col-md-10">
+                                <div id="textoTest">
+                                    <center>
+                                        <h5><strong>Test de entorno</strong></h5>
+                                    </center>
+
+                                </div>
+                                <label for="primeraPregunta" class="form-label">¿Qué tan importante es para ti estar
+                                    cerca de una ciudad grande o capital?</label>
+                                <select class="form-select" id="primeraPregunta" required>
+                                    <option selected value="A">A. Muy importante.</option>
+                                    <option value="B">B. No tan importante.</option>
+                                    <option value="C">C. Nada importante.</option>
+
+                                </select>
+                            </div>
+                            <div class="col-8 col-md-10">
+                                <label for="segundaPregunta" class="form-label">¿Qué estilo de vida prefieres?</label>
+                                <select class="form-select" id="segundaPregunta" required>
+                                    <option selected value="A">A. Muy importante.</option>
+                                    <option value="B">B. No tan importante.</option>
+                                    <option value="C">C. Nada importante.</option>
+                                </select>
+                            </div>
+                            <div class="col-8 col-md-10">
+                                <label for="terceraPregunta" class="form-label">¿Para qué usarías el lote
+                                    principalmente?</label>
+                                <select class="form-select" id="terceraPregunta" required>
+                                    <option selected value="A">A. Vivienda permanente.</option>
+                                    <option value="B">B. Recreacional.</option>
+                                    <option value="C">C. Inversión o proyecto.</option>
+                                </select>
+                            </div>
+                            <div class="col-8 col-md-10">
+                                <label for="cuartaPregunta" class="form-label">¿Qué tan importante es para ti tener
+                                    contacto directo con la naturaleza en tu día a día?</label>
+                                <select class="form-select" id="cuartaPregunta" required>
+                                    <option selected value="A">A. Me encanta.</option>
+                                    <option value="B">B. Me gusta.</option>
+                                    <option value="C">C. Prefiero algo más urbano.</option>
+                                </select>
+                            </div>
+                            <div class="col-8 col-md-10">
+                                <label for="quintaPregunta" class="form-label">¿Qué tipo de clima y ambiente
+                                    prefieres?</label>
+                                <select class="form-select" id="quintaPregunta" required>
+                                    <option selected value="A">A. Templado.</option>
+                                    <option value="B">B. Cálido.</option>
+                                    <option value="C">C. Mixto.</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardUnoFoot" style="width: 18rem;">
+                    <img id="logoDosFooter" src="/resources/logos/logoDoos.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Venta de Lotes RB es una plataforma digital creada para
+                            simplificar la compra de predios.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardDosFoot" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Medios de contacto:</h5>
+                        <p class="card-text">Teléfono: +57 320 202 02 02<br>
+                            Correo : lotesRB@gmail.com</p>
+                        <a href="https://wa.me/3202020202" class="btn btn-primary" target="_blank">Whatsapp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" id="cardTresFoot" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Secciones principales:</h5>
+                        <p class="card-text"><a href="/index.html"><br>Inicio</a>
+                            <a href="/views/html/contactanos.html"><br>Contáctanos</a>
+                            <a href="/views/html/test.html"><br>Test</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/resources/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

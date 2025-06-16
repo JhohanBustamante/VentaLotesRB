@@ -1,0 +1,184 @@
+:root{
+  --colorPrincipal:#003333;
+  --colorbuttonCarrusel: #00333375;
+  --colorSecundario: #06A77D;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body button{
+  background-color: var(--colorPrincipal) !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 590;
+}
+
+header {
+  background-color: var(--colorPrincipal) !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+div.row div.card {
+  background-color: var(--colorSecundario);
+  height: 200px;
+}
+
+@media (min-width:992px){
+  header ul.navbar-nav a{
+    margin-left: 50px;
+  }
+
+}
+
+div.primerRow{
+  margin-top: 80px;
+}
+
+header nav.navbar {
+  background-color: var(--colorPrincipal) !important;
+  padding: 0px;
+}
+
+header nav.navbar a{
+  color: white !important;
+}
+
+main {
+  flex: 1;
+}
+
+nav.navbar button {
+  background: #778575;
+  color: #7580736c;
+}
+
+footer {
+  background-color: var(--colorPrincipal);
+}
+
+#logoDosFooter {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: -60px;
+  margin-left: calc(50% - 50px);
+  margin-bottom: 0px;
+  margin-top: 20px !important;
+}
+
+ul#listadoPrincipal {
+  display: flex;
+  list-style: none;
+}
+
+div.container-fluid a {
+  margin-right: 0px;
+}
+
+#logoDos {
+  width: 80px;
+  height: 80px;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 40px;
+}
+
+#logoDosFooter {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: -60px;
+  margin-left: calc(50% - 50px);
+  margin-bottom: 30px;
+}
+
+div.lista {
+  width: 300px;
+  margin-top: 50px;
+}
+
+div.lista ul.list-group {
+  width: 350px;
+  height: 200px;
+  list-style: none;
+}
+
+#logoDos {
+  width: 80px;
+  height: 80px;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 40px;
+}
+
+footer div.card{
+  border:0;
+  height: 300px !important;
+  width: 250px !important;
+  margin-left: calc(50% - 125px);
+  margin-top: 40px;
+}
+
+div#cardTresFoot a{
+  text-decoration: none !important;
+  color: black;
+  font-weight: 600;
+}
+
+div#cardDosFoot h5{
+  margin-top: 50px;
+  margin-bottom: 30px
+}
+
+div#cardDosFoot a{
+  margin-top: 50px;
+  background-color: var(--colorPrincipal)  !important;
+}
+
+div#cardTresFoot h5{
+  margin-top: 50px;
+}
+
+@media(max-width:768px){
+
+  footer div.row{
+    width: 100%;
+    padding: 0;
+    margin: 10px, 0, 0, 0;
+  }
+
+  #logoDos{
+    margin-right: -20px !important;
+  }
+}
+
+@media(max-width:576px){
+  header{
+    width: 100%;
+  }
+  #tituloHeader{
+    margin-left: -240px;
+    margin-right: -250px;
+  }
+}
+
+footer div.row div.card {
+  width: 250px !important;
+  margin-left: calc(50% - 125px) !important;
+}
